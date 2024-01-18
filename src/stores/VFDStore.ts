@@ -47,7 +47,7 @@ export const useVFDStore = defineStore('vfd', () => {
   if (vfds.value.length === 0) {
     getVFDList()
     setInterval(() => {
-      getVFDList()
+      //getVFDList()
     }, 250)
   }
 
