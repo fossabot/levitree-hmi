@@ -1,46 +1,22 @@
-# frontend-vue
+![Logo](https://images.squarespace-cdn.com/content/v1/61ccd15eb71fc5016709e662/ff2e09a6-3681-4bb6-ad4f-28b6d113bf9d/Levitree_Logo2.png?format=1500w)
 
-This template should help get you started developing with Vue 3 in Vite.
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
-## Recommended IDE Setup
+# HMI Frontend
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Interacts with [RWIS-API](https://github.com/acvigue/levitree-rwis-api) to control and show state of all devices connected to the system
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+ghcr.io/acvigue/levitree-hmi:main (linux/arm64,linux/amd64,linux/arm/v7)
 ```
 
-### Compile and Hot-Reload for Development
+## Run Locally
 
-```sh
-npm run dev
+```bash
+yarn
+yarn dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Authors
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- [@acvigue](https://www.github.com/acvigue)
